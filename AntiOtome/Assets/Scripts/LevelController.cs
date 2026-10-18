@@ -12,11 +12,13 @@ public class LevelController : MonoBehaviour
     public Text textoContaNo; 
     public int[] puntos; 
     public int totalPreguntas; 
-    [SerializeField]private int puntuacion; 
+    private int puntuacion; 
     private int id; 
     public DialogeController dc;
     public event EventHandler ReiniciarMensaje; 
     public GameObject img; 
+    [SerializeField] private String escenaDestino; 
+    
 
 
     // Start is called before the first frame update
@@ -74,7 +76,7 @@ public class LevelController : MonoBehaviour
     {
         if(puntuacion <= 8)
         {
-            Debug.Log("Nivel"); 
+            FadeManager.Instance.IrAEscena(escenaDestino);
         }
         else{
             
