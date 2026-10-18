@@ -4,21 +4,25 @@ using UnityEngine;
 using UnityEngine.UI; 
 using System; 
 
+
 public class LevelController : MonoBehaviour
 {
     public int contaNo;
     public Button botonSi, botonNo; 
-    public string textoContaNo; 
+    public Text textoContaNo; 
     public int[] puntos; 
     public int totalPreguntas; 
-    private int puntuacion; 
+    [SerializeField]private int puntuacion; 
     private int id; 
     public DialogeController dc;
     public event EventHandler ReiniciarMensaje; 
+    public GameObject img; 
+
 
     // Start is called before the first frame update
     void Start()
     {
+        textoContaNo.text =  "No:"+contaNo.ToString(); 
         id = 0; 
         DeshabilitarBotones(); 
         dc.TerminoMensaje+= HabilitarBotones; 
@@ -47,8 +51,10 @@ public class LevelController : MonoBehaviour
 
     public void PresionoNo()
     {
+
         DeshabilitarBotones(); 
         contaNo--; 
+        textoContaNo.text =  "No:"+contaNo.ToString(); 
         PuedeSeguirJugando();  
     }
 
@@ -66,15 +72,20 @@ public class LevelController : MonoBehaviour
 
     public void Proseguir()
     {
-        if(puntuacion > 8)
+        if(puntuacion <= 8)
         {
-            Debug.Log("Final yay"); 
+            Debug.Log("Nivel"); 
         }
         else{
-            Debug.Log("Nivel"); 
+            
+            Ending(); 
         }
     }
 
+    private void Ending()
+    {
+        img.SetActive(true); 
+    }
     void OnDestroy()
     {
         dc.TerminoMensaje-= HabilitarBotones; 
