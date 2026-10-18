@@ -244,6 +244,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2010479303}
     m_Modifications:
+    - target: {fileID: 7916464271368744969, guid: 9baf1481c77311e848adc28f2c0db215,
+        type: 3}
+      propertyPath: m_text
+      value: 'Se acerca a la pantalla, un crujido se escucha por todo el cuarto,
+        saca una mano de la pantalla y te agarra de la ropa, jalando tan
+
+        fuerte
+        que entras en la pantalla, te mira desde arriba con suficiencia, mientras
+        se glitchea
+
+        
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7916464272020636815, guid: 9baf1481c77311e848adc28f2c0db215,
+        type: 3}
+      propertyPath: m_text
+      value: "\u2013\xBF es eso? \xBFno? solo un juego para ti... diciendo que si
+        a todo...\xBF nisiquiera pensaste en las consecuencias?\r\n\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7916464272205928142, guid: 9baf1481c77311e848adc28f2c0db215,
+        type: 3}
+      propertyPath: m_text
+      value: "\u2013 Quedate conmigo \xBFquieres? "
+      objectReference: {fileID: 0}
     - target: {fileID: 9198966613850991625, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -258,6 +283,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interactable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9198966614019666909, guid: 9baf1481c77311e848adc28f2c0db215,
+        type: 3}
+      propertyPath: m_text
+      value: "Un largo suspiro se escucha en la silenciosa habitaci\xF3n, seguida
+        de una risa nerviosa que se intensifica a cada sagundo, tu cabeza\r\ngira
+        mientras le miras\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9198966615061653914, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
