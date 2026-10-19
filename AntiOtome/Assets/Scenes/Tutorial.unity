@@ -521,7 +521,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1671295072}
-  line: Te inscribe a la UNITEC, Te cambia a movistar, roba tu cartera y escapa.
+  line: Te inscribe a la UNITEC.      Te cambia a movistar.         Roba tu cartera
+    y escapa.
   textSpeed: 0.2
   boton: {fileID: 1390157986}
 --- !u!114 &802508006
@@ -1284,8 +1285,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.8, y: -124.61}
-  m_SizeDelta: {x: 801.2501, y: 249.21683}
+  m_AnchoredPosition: {x: 0.00000095367, y: -92.504}
+  m_SizeDelta: {x: 674.1354, y: 169.7698}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1390157986
 MonoBehaviour:
@@ -1708,7 +1709,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834297994}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.48, y: -0.74, z: 0}
+  m_LocalPosition: {x: 4.22, y: -0.99, z: 0}
   m_LocalScale: {x: 0.80065244, y: 0.8296175, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2072,7 +2073,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99a885847e0dd26f8ce1b2870696ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contaNo: 1
   botonSi: {fileID: 53496356}
   botonNo: {fileID: 1861235334}
   textoContaNo: {fileID: 1945447149}
