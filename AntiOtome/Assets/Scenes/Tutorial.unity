@@ -204,7 +204,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2040621031}
-        m_MethodName: PresionoSi
+        m_MethodName: PresionoSiTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -286,7 +286,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1013, y: 530}
+  m_AnchoredPosition: {x: -303, y: 175}
   m_SizeDelta: {x: 492.63403, y: 202.5788}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &74024976
@@ -639,7 +639,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 26.028, y: 146.6}
+  m_AnchoredPosition: {x: 26.027954, y: 146.6}
   m_SizeDelta: {x: 2259.2114, y: 216.6326}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1028339373
@@ -774,7 +774,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -60.1, y: -499}
+  m_AnchoredPosition: {x: 625, y: -652}
   m_SizeDelta: {x: 2311.268, y: 383.03033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1031962932
@@ -791,7 +791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1028339373}
   lines:
-  - Me das tu numero
+  - "\xBFMe das tu numero?"
   textSpeed: 0.2
   lc: {fileID: 2040621031}
 --- !u!114 &1031962933
@@ -1101,7 +1101,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -11.799988, y: -34.899963}
+  m_AnchoredPosition: {x: 546, y: -34.899963}
   m_SizeDelta: {x: 167.15427, y: 137.91217}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &1262572969
@@ -1196,7 +1196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1797,7 +1797,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2040621031}
-        m_MethodName: PresionoNo
+        m_MethodName: PresionoNoTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1877,10 +1877,10 @@ RectTransform:
   m_Father: {fileID: 1375904233}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -175, y: 87.5}
+  m_SizeDelta: {x: -350, y: -175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1945447147
 GameObject:

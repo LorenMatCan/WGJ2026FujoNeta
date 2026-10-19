@@ -1499,11 +1499,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99a885847e0dd26f8ce1b2870696ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contaNo: 1
   botonSi: {fileID: 1646131417}
   botonNo: {fileID: 75920850}
   textoContaNo: {fileID: 798369902}
-  puntos: 00000000030000000400000004000000
+  puntos: 00000000030000000400000008000000
   totalPreguntas: 4
   dc: {fileID: 429379238}
   img: {fileID: 1091196040}
