@@ -307,7 +307,7 @@ SpriteRenderer:
   m_SortingLayerID: 1963497527
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ae7fa2ab79b803fc197dbb5061cdead4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f7b4475da3592f74b8ed7e98174d03a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -326,8 +326,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81625539}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalPosition: {x: -0.019, y: 0.15, z: 0}
+  m_LocalScale: {x: 0.9403841, y: 0.94465727, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1193,9 +1193,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 523685583}
-  line: 'Sales corriendo de la casa mientras miras a todos lados en la calle obscura,
-    encuentra a un policia, corres hacia el y al voltear la mirada ya no te estan
-    siguiendo. '
+  line: 'Corres a toda velocidad y logras salir de la casa mientras miras hacia todos
+    lados en la calle oscura, despues de un rato encuentra a un policia, te diriges
+    hacia el y al llegar miras hacia atras...Nadie te a seguido.. '
   textSpeed: 0.2
   boton: {fileID: 153293084}
 --- !u!114 &1087505188
@@ -1327,20 +1327,32 @@ PrefabInstance:
     - target: {fileID: 7916464271368744969, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
       propertyPath: m_text
-      value: "Salen del Bar mientras te sostiene y sonrie\r\n\r\n\r\n\u2013 No hablas
-        mucho, a veces, es raro solo... me das una respuesta\n"
+      value: "\nSalen del Bar mientras te sostiene y sonrie\r\n\r\n\r\n\u2013 No
+        hablas mucho, eso es raro solo...\n me das una respuesta\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7916464272020636813, guid: 9baf1481c77311e848adc28f2c0db215,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7916464272020636815, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
       propertyPath: m_text
-      value: "\u2013 No te ves muy bien, usualmente nunca se dan cuenta cuando me
-        ausento en mi turno jaja, dejame llevarte a mi casa, es muy\r\ncerca"
+      value: "\n\u2013 No te ves muy bien, usualmente nunca se dan cuenta cuando
+        me ausento en mi turno jaja, dejame llevarte a mi casa, es muy\r\ncerca."
       objectReference: {fileID: 0}
     - target: {fileID: 7916464272205928142, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
       propertyPath: m_text
-      value: "Sonrie incomodo y levanta la mirada, estan frente a la puesta de su
-        casa, saca la llave, abre la puerta guiandote dentro \r\n\r\n"
+      value: '
+
+
+        Sonrie incomodo y levanta la mirada, estan frente a la puerta
+        de su casa, saca la llave, abre la puerta y te guia adentro.
+
+        
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 9198966613850991625, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
@@ -1370,11 +1382,18 @@ PrefabInstance:
     - target: {fileID: 9198966614019666909, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
       propertyPath: m_text
-      value: 'Despues de un rato empiezas a sentirte un poco mal, el sonido y la
-        gente te empiezan a molestar
+      value: '
+
+        Despues de un rato empiezas a sentirte un poco mal, el sonido
+        y la gente te empiezan a molestar.
 
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 9198966614019666909, guid: 9baf1481c77311e848adc28f2c0db215,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9198966614258422893, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
@@ -1645,7 +1664,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99a885847e0dd26f8ce1b2870696ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contaNo: 3
   botonSi: {fileID: 1646131417}
   botonNo: {fileID: 75920850}
   textoContaNo: {fileID: 798369902}

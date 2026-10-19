@@ -672,7 +672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 2077130815}
   lines:
-  - "\xBFDecides alejate?"
+  - "\xBFDecides alejarte?"
   - "\xBFEstas libre hoy?"
   - "\xBFPuedo tener tu numero?"
   - "\xBFQuieres salir conmigo esta noche? (mientras lo dice un extra\xF1o tic recorre
@@ -1260,7 +1260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 523685583}
-  line: Regresas a tu casa feliz pero con una sensacion de vacio.
+  line: Regresas a tu casa feliz pero con una sensacion de vacio que invade tu cuerpo.
   textSpeed: 0.2
   boton: {fileID: 153293084}
 --- !u!114 &1087505188
@@ -2196,8 +2196,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lo llevas a la mesa y toca calidamente tu mano, se acerela tu coraz\xF3n
-    y levantas las mirada a esos ojos, verde y azul, parpadeas\nconfundida.  \n"
+  m_text: "Lo llevas a la mesa y toca calidamente tu mano, se acelera tu coraz\xF3n
+    y levantas la mirada a esos ojos que tanto te hipnotizan, te ve y parpadeas confundida. 
+    \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2323,9 +2324,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Regresas a la barra y al voltear te encuentras con su mirada, unos hermosos
-    ojos esmeralda, desvias la mirada
-
-    mientras tomas su pedido.
+    ojos que sientes como pueden ver tu alma, desvias la mirada mientras tomas su
+    pedido.
 
 
 '
@@ -2469,8 +2469,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\u2013 Perdona, llamaste mi atenci\xF3n y no puedo permitirme no hablarte\n\n\nMientas
-    toma tu otra mano y te acerca bruscamente"
+  m_text: "\n\u2013 Perdona, llamaste mi atenci\xF3n y no puedo desperdiciar esta
+    oportunidad de hablarte\n\nMientras toma tu otra mano y te acerca bruscamente."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2868,8 +2868,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Te acercas a la persona. Sonrie calidamente hacia ti, te sonrrojas y escondes
-    la cara. Llegas y timidamente preguntas\npor su orden. \n\n"
+  m_text: "Te acercas a la persona. \nSonrie calidamente hacia ti, te sonrojas y
+    escondes la cara.\n Llegas y timidamente preguntas\npor su orden. \n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

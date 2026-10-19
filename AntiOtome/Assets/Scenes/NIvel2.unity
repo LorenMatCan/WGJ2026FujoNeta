@@ -1195,9 +1195,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 523685583}
-  line: 'Sonrie mientras te alejas, perdiendote entre la gente, encuentras la salida
+  line: 'Sonrie mientras te alejas, te pierdes entre la gente, encuentras la salida
     y te escabulles mientras escuchas que gritan tu nombre para encontrarte entre
-    la multitud, subes a un camion, alejandote rapidamente y llegando a casa a salvo. '
+    la multitud, subes a un camion, te alejas rapidamente y llegas a casa a salvo. '
   textSpeed: 0.2
   boton: {fileID: 153293084}
 --- !u!114 &1087505188
@@ -1330,9 +1330,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: "  Volteas y te sonrrojas al verle, su chaqueta tiene un nombre bordado,
-        sonries al saber como feretirte a esa persona, mientras\r\nextiende su mano
-        y te abraza acercandote, jurabas que tenia un tatuaje esta ma\xF1ana que
+        sonries al saber como referirte a esa persona, mientras\r\nextiende su mano
+        y te abraza acercandote. Jurabas que tenia un tatuaje esta ma\xF1ana que
         le viste, parpadeas mientras caminan.\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7916464271368744969, guid: 9baf1481c77311e848adc28f2c0db215,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7916464272020636813, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
@@ -1342,8 +1347,13 @@ PrefabInstance:
     - target: {fileID: 7916464272020636815, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
       propertyPath: m_text
-      value: "Sonries limpiando la ultima mesa, con emocion por tu cita de esta noche,\ncierras
-        el caf\xE9 yuna voz interrumpe tus\n pensamientos,\r \n"
+      value: "Sonries mientras limpias la ultima mesa con emocion por tu cita de
+        esta noche.\nCierras el caf\xE9 y una voz interrumpe tus\n pensamientos.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7916464272020636815, guid: 9baf1481c77311e848adc28f2c0db215,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7916464272020636815, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
@@ -1363,10 +1373,15 @@ PrefabInstance:
     - target: {fileID: 7916464272205928142, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
       propertyPath: m_text
-      value: "\n\u2013 Ya conoc\xED tu trabajo, ahora te llevar\xE9 al mio\r\nTe
+      value: "\u2013 Ya conoc\xED tu trabajo, ahora te llevar\xE9 al mio\r\n\nTe
         lleva por una calle hasta llegar a un bar, entran por la puerta principal
         y se acercan a la barra, mientras se coloca detras de la\r\nbarra, te gui\xF1a
-        un ojo"
+        un ojo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7916464272205928142, guid: 9baf1481c77311e848adc28f2c0db215,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9198966613850991625, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
@@ -1388,8 +1403,13 @@ PrefabInstance:
       propertyPath: m_text
       value: "No conocias su nombre ni su edad, pero no te importo.\r\n\rEstabas
         por terminar tu turno cuando te llama por telefono, respondes rapidamente
-        con una sonrisa\r\n\r\u2013 Hola! Te espero fuera del caf\xE9, hay un lugar
+        con una sonrisa\r\n\n\r\u2013 Hola! Te espero fuera del caf\xE9, hay un lugar
         que quiero mostrarte, se que te va a encantar\r\n\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9198966614019666909, guid: 9baf1481c77311e848adc28f2c0db215,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9198966614019666909, guid: 9baf1481c77311e848adc28f2c0db215,
         type: 3}
@@ -1680,7 +1700,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99a885847e0dd26f8ce1b2870696ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contaNo: 6
   botonSi: {fileID: 1646131417}
   botonNo: {fileID: 75920850}
   textoContaNo: {fileID: 798369902}
