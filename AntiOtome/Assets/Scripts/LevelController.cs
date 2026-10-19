@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; 
 using System; 
+using UnityEngine.SceneManagement;
 
 
 public class LevelController : MonoBehaviour
 {
-    public int contaNo;
+    private int contaNo = 1;
+    private int contaNoTutorial = 1 ; 
     public Button botonSi, botonNo; 
     public Text textoContaNo; 
     public int[] puntos; 
@@ -17,18 +19,28 @@ public class LevelController : MonoBehaviour
     public DialogeController dc;
     public event EventHandler ReiniciarMensaje; 
     public GameObject img; 
-    [SerializeField] private String escenaDestino; 
-    
+    [SerializeField] private String escenaDestino;    
 
 
     // Start is called before the first frame update
     void Start()
     {
+        int? temp = GameManager.Instance?.getContaNo();
+        if (temp == null || SceneManager.GetActiveScene().name == "Tutorial")
+        {
+            contaNo = 1;
+        }
+        else 
+        {
+            contaNo = temp.Value; 
+        }
         textoContaNo.text =  "No:"+contaNo.ToString(); 
         id = 0; 
         DeshabilitarBotones(); 
-        dc.TerminoMensaje+= HabilitarBotones; 
+        dc.TerminoMensaje+= HabilitarBotones;
     }
+
+
 
     public void HabilitarBotones(object sender, EventArgs e)
     {
@@ -53,15 +65,30 @@ public class LevelController : MonoBehaviour
 
     public void PresionoNo()
     {
-
-        DeshabilitarBotones(); 
+        DeshabilitarBotones();
+        GameManager.Instance.setContaNO(); 
         contaNo--; 
         textoContaNo.text =  "No:"+contaNo.ToString(); 
         PuedeSeguirJugando();  
     }
 
+    public void PresionoSiTutorial(){
+
+        DeshabilitarBotones(); 
+        Ending(); 
+    }
+
+    public void PresionoNoTutorial()
+    {
+        DeshabilitarBotones(); 
+        contaNoTutorial--; 
+        textoContaNo.text =  "No:"+contaNoTutorial.ToString(); 
+        FadeManager.Instance.IrAEscena(escenaDestino);
+    }
+
     public void PuedeSeguirJugando()
     {
+        
         if(id < totalPreguntas-1 )
         {
             id++;
@@ -74,7 +101,7 @@ public class LevelController : MonoBehaviour
 
     public void Proseguir()
     {
-        if(puntuacion <= 8)
+        if(puntuacion >= 8)
         {
             FadeManager.Instance.IrAEscena(escenaDestino);
         }

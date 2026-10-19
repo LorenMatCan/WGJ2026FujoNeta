@@ -5,6 +5,15 @@ public class MenuPrincipal : MonoBehaviour
 {
     public string escenaTutorial = "Tutorial";
 
+     void Start()
+    {
+        int? temp = GameManager.Instance?.getContaNo();
+        if (temp != null)
+        {
+            GameManager.Instance.restartContaNo();
+        }
+    }
+
     public void Jugar()
     {
         if (FadeManager.Instance != null)

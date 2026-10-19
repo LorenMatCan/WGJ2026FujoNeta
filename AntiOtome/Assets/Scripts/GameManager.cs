@@ -10,9 +10,11 @@ public class GameManager : MonoBehaviour
     [Header("Sprites del protagonista")]
     public Sprite spritePersonaje1;
     public Sprite spritePersonaje2;
+    private int contaNo; 
 
     void Awake()
     {
+        contaNo=6; 
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -30,5 +32,20 @@ public class GameManager : MonoBehaviour
     public Sprite GetSpriteElegido()
     {
         return PersonajeElegido == 1 ? spritePersonaje1 : spritePersonaje2;
+    }
+
+    public int getContaNo()
+    {
+        return contaNo; 
+    }
+
+    public void setContaNO()
+    {
+        contaNo--; 
+    }
+
+    public void restartContaNo()
+    {
+        contaNo = 6; 
     }
 }

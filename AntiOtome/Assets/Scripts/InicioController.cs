@@ -8,6 +8,7 @@ public class InicioController : MonoBehaviour
     private int index; 
     public GameObject canvaJuego;
 
+
     void Start()
     {
         index = 0; 
@@ -34,6 +35,18 @@ public class InicioController : MonoBehaviour
         else{
             canvaJuego.SetActive(true); 
             Destroy(gameObject); 
+        }
+    }
+
+    public void AvanzarFinal()
+    {
+        index++; 
+        if(index <  Textos.Length)
+        {
+            PasarTexto(); 
+        }
+        else{
+            canvaJuego.SetActive(true); 
         }
     }
 
